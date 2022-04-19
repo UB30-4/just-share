@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just Share Form</title>
+  </head>
+  <style>
+    body {
+      background-image: url(/images/coffee.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color:black;
+      font-weight: 500;
+    }
+  </style>
+  <body>
+    <h2>REGISTER HERE (❁´◡`❁)</h2>
+    <form action="JustShareIndex.html" method="GET">
+      <p>First name: <input type="text" name="Firstname" maxlength="30" /></p>
+      <p>Surname : <input type="text" name="Surname" maxlength="30" /></p>
+      <p>Nickname: <input type="text" name="Nickname" maxlength="10" /></p>
+      <p>Password: <input type="password" name="password" maxlength="30" /></p>
+      <p>
+        Select your gender: <br />
+        <input type="radio" name="	gender" value="male" checked="checked" />Male
+        <input type="radio" name="	gender" value="female" />Female
+        <input type="radio" name="gender" value="rather not say" />Rather not
+        say
+      </p>
+      <p>
+        <input
+          type="checkbox"
+          name="service"
+          value="Would you like to receive newsletters from us "
+        /> 
+        <p>Subscribe to our email list:
+        </p>
+        <input type="text" name="email"><br>
+        <input type="submit" name="subscribe" value="Subscribe">
+        <!-- <input type="image" src="/images/background.jpg" width="100" height="20"> -->
+        <p>What kind of books do you like to read?
+            <select name="books"  id="">
+                <option value="ficton">Fiction</option>
+                <option value="non-fiction">Non-fiction</option>
+                <option value="Literaure">Literature</option>
+                <option value="none">None</option>
+            </select>
+        </p>
+
+        Would you like to receive newsletters from us <br />
+      </p>
+
+      <p>
+        <input type="checkbox" name="terms" value="terms and conditions" />I
+        agree to the terms and conditons applied
+      </p>
+
+      <button submit>Submit</button>
+
+    </form>
+  </body>
+</html>

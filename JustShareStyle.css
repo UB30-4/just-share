@@ -1,0 +1,85 @@
+html {
+  scroll-behavior: smooth;
+}
+#logo {
+  display: inline-block;
+  margin: 15px;
+
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+}
+.title {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fe9;
+  font-family: "Palatino", serif;
+  text-align: center;
+  font-size: xx-large;
+}
+  /* .pimg{
+    background-image: url('../Website/img/grass/ sunset.avif');
+    min-height: 100%;
+  } */
+  /* .title{
+   
+    text-align: center;
+    background-color: #fe9;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+     */
+  
+h2 {
+  text-decoration: underline;
+  line-height: 280%;
+  padding-left: 2%;
+}
+h3 {
+  line-height: 10%;
+  padding: 1% 0;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  width: 200px;
+  height: 200px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+body {
+  background-image: url("/images/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.about {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
+p {
+  font-size: 18px;
+  font-family: cursive;
+}
